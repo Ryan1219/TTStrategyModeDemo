@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FD5AAE1E642240007E0DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AAD1E642240007E0DC4 /* main.m */; };
+		42FD5AB11E642240007E0DC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AB01E642240007E0DC4 /* AppDelegate.m */; };
+		42FD5AB41E642240007E0DC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AB31E642240007E0DC4 /* ViewController.m */; };
+		42FD5AB71E642240007E0DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD5AB51E642240007E0DC4 /* Main.storyboard */; };
+		42FD5ABA1E642240007E0DC4 /* TTStrategyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AB81E642240007E0DC4 /* TTStrategyDemo.xcdatamodeld */; };
+		42FD5ABC1E642240007E0DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FD5ABB1E642240007E0DC4 /* Assets.xcassets */; };
+		42FD5ABF1E642240007E0DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FD5ABD1E642240007E0DC4 /* LaunchScreen.storyboard */; };
+		42FD5AD21E64310F007E0DC4 /* AVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AD11E64310F007E0DC4 /* AVPlayer.m */; };
+		42FD5AD51E64312C007E0DC4 /* YZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AD41E64312C007E0DC4 /* YZPlayer.m */; };
+		42FD5AD81E643241007E0DC4 /* TTPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5AD71E643241007E0DC4 /* TTPlayer.m */; };
+		42FD5ADB1E643582007E0DC4 /* TTAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5ADA1E643582007E0DC4 /* TTAVPlayer.m */; };
+		42FD5ADE1E643590007E0DC4 /* TTYZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FD5ADD1E643590007E0DC4 /* TTYZPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42FD5AA91E64223F007E0DC4 /* TTStrategyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTStrategyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FD5AAD1E642240007E0DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42FD5AAF1E642240007E0DC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42FD5AB01E642240007E0DC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42FD5AB21E642240007E0DC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42FD5AB31E642240007E0DC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42FD5AB61E642240007E0DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FD5AB91E642240007E0DC4 /* TTStrategyDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TTStrategyDemo.xcdatamodel; sourceTree = "<group>"; };
+		42FD5ABB1E642240007E0DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42FD5ABE1E642240007E0DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42FD5AC01E642240007E0DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FD5AC61E64243D007E0DC4 /* TTPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPlayerProtocol.h; sourceTree = "<group>"; };
+		42FD5AD01E64310F007E0DC4 /* AVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayer.h; sourceTree = "<group>"; };
+		42FD5AD11E64310F007E0DC4 /* AVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayer.m; sourceTree = "<group>"; };
+		42FD5AD31E64312C007E0DC4 /* YZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPlayer.h; sourceTree = "<group>"; };
+		42FD5AD41E64312C007E0DC4 /* YZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPlayer.m; sourceTree = "<group>"; };
+		42FD5AD61E643241007E0DC4 /* TTPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPlayer.h; sourceTree = "<group>"; };
+		42FD5AD71E643241007E0DC4 /* TTPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPlayer.m; sourceTree = "<group>"; };
+		42FD5AD91E643582007E0DC4 /* TTAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAVPlayer.h; sourceTree = "<group>"; };
+		42FD5ADA1E643582007E0DC4 /* TTAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAVPlayer.m; sourceTree = "<group>"; };
+		42FD5ADC1E643590007E0DC4 /* TTYZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTYZPlayer.h; sourceTree = "<group>"; };
+		42FD5ADD1E643590007E0DC4 /* TTYZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTYZPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FD5AA61E64223F007E0DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FD5AA01E64223F007E0DC4 = {
+			isa = PBXGroup;
+			children = (
+				42FD5AAB1E642240007E0DC4 /* TTStrategyDemo */,
+				42FD5AAA1E64223F007E0DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FD5AAA1E64223F007E0DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AA91E64223F007E0DC4 /* TTStrategyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FD5AAB1E642240007E0DC4 /* TTStrategyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AAF1E642240007E0DC4 /* AppDelegate.h */,
+				42FD5AB01E642240007E0DC4 /* AppDelegate.m */,
+				42FD5AB21E642240007E0DC4 /* ViewController.h */,
+				42FD5AB31E642240007E0DC4 /* ViewController.m */,
+				42FD5AE11E65117F007E0DC4 /* Protocol */,
+				42FD5AE01E65116D007E0DC4 /* CommonPlayer */,
+				42FD5ADF1E651152007E0DC4 /* Strategy */,
+				42FD5ACC1E6430C5007E0DC4 /* Player */,
+				42FD5AB51E642240007E0DC4 /* Main.storyboard */,
+				42FD5ABB1E642240007E0DC4 /* Assets.xcassets */,
+				42FD5ABD1E642240007E0DC4 /* LaunchScreen.storyboard */,
+				42FD5AC01E642240007E0DC4 /* Info.plist */,
+				42FD5AB81E642240007E0DC4 /* TTStrategyDemo.xcdatamodeld */,
+				42FD5AAC1E642240007E0DC4 /* Supporting Files */,
+			);
+			path = TTStrategyDemo;
+			sourceTree = "<group>";
+		};
+		42FD5AAC1E642240007E0DC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AAD1E642240007E0DC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FD5ACC1E6430C5007E0DC4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5ACF1E6430E8007E0DC4 /* YZPlayer */,
+				42FD5ACD1E6430D5007E0DC4 /* AVPlayer */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		42FD5ACD1E6430D5007E0DC4 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AD01E64310F007E0DC4 /* AVPlayer.h */,
+				42FD5AD11E64310F007E0DC4 /* AVPlayer.m */,
+			);
+			name = AVPlayer;
+			sourceTree = "<group>";
+		};
+		42FD5ACF1E6430E8007E0DC4 /* YZPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AD31E64312C007E0DC4 /* YZPlayer.h */,
+				42FD5AD41E64312C007E0DC4 /* YZPlayer.m */,
+			);
+			name = YZPlayer;
+			sourceTree = "<group>";
+		};
+		42FD5ADF1E651152007E0DC4 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AD91E643582007E0DC4 /* TTAVPlayer.h */,
+				42FD5ADA1E643582007E0DC4 /* TTAVPlayer.m */,
+				42FD5ADC1E643590007E0DC4 /* TTYZPlayer.h */,
+				42FD5ADD1E643590007E0DC4 /* TTYZPlayer.m */,
+			);
+			name = Strategy;
+			sourceTree = "<group>";
+		};
+		42FD5AE01E65116D007E0DC4 /* CommonPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AD61E643241007E0DC4 /* TTPlayer.h */,
+				42FD5AD71E643241007E0DC4 /* TTPlayer.m */,
+			);
+			name = CommonPlayer;
+			sourceTree = "<group>";
+		};
+		42FD5AE11E65117F007E0DC4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				42FD5AC61E64243D007E0DC4 /* TTPlayerProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FD5AA81E64223F007E0DC4 /* TTStrategyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FD5AC31E642240007E0DC4 /* Build configuration list for PBXNativeTarget "TTStrategyDemo" */;
+			buildPhases = (
+				42FD5AA51E64223F007E0DC4 /* Sources */,
+				42FD5AA61E64223F007E0DC4 /* Frameworks */,
+				42FD5AA71E64223F007E0DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTStrategyDemo;
+			productName = TTStrategyDemo;
+			productReference = 42FD5AA91E64223F007E0DC4 /* TTStrategyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FD5AA11E64223F007E0DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangliangwang;
+				TargetAttributes = {
+					42FD5AA81E64223F007E0DC4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M6K278EW5S;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42FD5AA41E64223F007E0DC4 /* Build configuration list for PBXProject "TTStrategyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FD5AA01E64223F007E0DC4;
+			productRefGroup = 42FD5AAA1E64223F007E0DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FD5AA81E64223F007E0DC4 /* TTStrategyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FD5AA71E64223F007E0DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FD5ABF1E642240007E0DC4 /* LaunchScreen.storyboard in Resources */,
+				42FD5ABC1E642240007E0DC4 /* Assets.xcassets in Resources */,
+				42FD5AB71E642240007E0DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FD5AA51E64223F007E0DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FD5AB41E642240007E0DC4 /* ViewController.m in Sources */,
+				42FD5AB11E642240007E0DC4 /* AppDelegate.m in Sources */,
+				42FD5AD51E64312C007E0DC4 /* YZPlayer.m in Sources */,
+				42FD5ADB1E643582007E0DC4 /* TTAVPlayer.m in Sources */,
+				42FD5AAE1E642240007E0DC4 /* main.m in Sources */,
+				42FD5AD21E64310F007E0DC4 /* AVPlayer.m in Sources */,
+				42FD5ADE1E643590007E0DC4 /* TTYZPlayer.m in Sources */,
+				42FD5ABA1E642240007E0DC4 /* TTStrategyDemo.xcdatamodeld in Sources */,
+				42FD5AD81E643241007E0DC4 /* TTPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42FD5AB51E642240007E0DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FD5AB61E642240007E0DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FD5ABD1E642240007E0DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FD5ABE1E642240007E0DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FD5AC11E642240007E0DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42FD5AC21E642240007E0DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FD5AC41E642240007E0DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6K278EW5S;
+				INFOPLIST_FILE = TTStrategyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStrategyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42FD5AC51E642240007E0DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M6K278EW5S;
+				INFOPLIST_FILE = TTStrategyDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomtop.TTStrategyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FD5AA41E64223F007E0DC4 /* Build configuration list for PBXProject "TTStrategyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FD5AC11E642240007E0DC4 /* Debug */,
+				42FD5AC21E642240007E0DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FD5AC31E642240007E0DC4 /* Build configuration list for PBXNativeTarget "TTStrategyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FD5AC41E642240007E0DC4 /* Debug */,
+				42FD5AC51E642240007E0DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42FD5AB81E642240007E0DC4 /* TTStrategyDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42FD5AB91E642240007E0DC4 /* TTStrategyDemo.xcdatamodel */,
+			);
+			currentVersion = 42FD5AB91E642240007E0DC4 /* TTStrategyDemo.xcdatamodel */;
+			path = TTStrategyDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42FD5AA11E64223F007E0DC4 /* Project object */;
+}
